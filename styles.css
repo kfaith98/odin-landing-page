@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -13,10 +13,10 @@ body {
 
 .section-1 {
     height: 500px;
+    flex-shrink: 0;
 }   
 
 .header-and-hero {
-    flex: 1;
     display: flex;
     flex-direction: column;
     margin: 0 200px;
@@ -49,14 +49,13 @@ li, .p {
 }
 
 .hero-container {
-    margin-top: 50px;
+    margin-top: 90px;
     display: flex;
     justify-content: space-between;
     gap: 50px;
 }
 
 .hero-content {
-    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -74,7 +73,7 @@ li, .p {
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 500px;
+    width: 1000px;
 }
 
 button {
@@ -94,17 +93,71 @@ button {
     border: 2px solid white;
 }
 
+.section-2 {
+    text-align: center;
+}
+
+.s2-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+    padding: 20px;
+}
+
+.s2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    margin: 0 200px;
+    margin-bottom: 100px;
+}
+
+.info {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2-text {
+    color: gray;
+    padding: 7px;
+}
+
 .square {
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
     background-color: white;
     border: 3px solid #3882F6;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 5px;
 }
 
 .section-3 {
+    height: 400px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    max-width: 900px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quoted-by {
+    display: flex;
+    justify-content: end;
 }
 
 .cta-container {
