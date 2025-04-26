@@ -2,9 +2,111 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-height: 100vh;
 }
 
 .section-1, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.section-1 {
+    height: 500px;
+}   
+
+.header-and-hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 200px;
+} 
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+li, .p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.hero-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-image {
+    background-color: #6d747e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 500px;
+}
+
+button {
+    background: #3882F6;
+    padding: 8px 35px;
+    border-radius: 7px;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#sign-up-1 {
+    border: none;
+}
+
+#sign-up-2 {
+    border: 2px solid white;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+}
+
+.cta-container {
+    background-color: #3882F6;
 }
