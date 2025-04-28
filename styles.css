@@ -11,6 +11,13 @@ body {
     color: #F9FAF8;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
 .section-1 {
     height: 500px;
     flex-shrink: 0;
@@ -94,6 +101,8 @@ button {
 }
 
 .section-2 {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -145,7 +154,7 @@ button {
 }
 
 .quote-container {
-    max-width: 900px;
+    max-width: 780px;
 }
 
 .quote {
@@ -160,6 +169,27 @@ button {
     justify-content: end;
 }
 
+.section-4 {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .cta-container {
     background-color: #3882F6;
+    color: white;
+    height: 150px;
+    width: 900px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.cta-title {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
 }
